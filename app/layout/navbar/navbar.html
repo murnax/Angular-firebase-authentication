@@ -1,0 +1,8 @@
+<div ng-controller="NavbarCtrl">
+    <ul>
+        <li ng-if="!isLoggedIn"><a href="#" ui-sref="login">Login</a></li>
+        <li ng-if="!isLoggedIn"><a href="#" ui-sref="signup">Sign up</a></li>
+        <li ng-if="isLoggedIn"><a href="#" ui-sref="profile">Profile</a></li>
+        <li ng-if="isLoggedIn"><a href="#" ng-click="logout()">Logout</a></li>
+    </ul>
+</div>

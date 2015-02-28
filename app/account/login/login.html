@@ -1,0 +1,7 @@
+<form>
+    <h4>Login form</h4>
+    <p ng-show="errorMessage.trim() !== ''">{{ errorMessage }}</p>
+    <input type="text" ng-model="user.email" placeholder="Email">
+    <input type="password" ng-model="user.password" placeholder="Password">
+    <button ng-click="login()">Login</button>
+</form>

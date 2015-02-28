@@ -1,0 +1,29 @@
+<!doctype html>
+<html ng-app="example-authen">
+<head>
+	<title>Firebase user authentication</title>
+</head>
+<body>
+
+    <div ng-include="'app/layout/navbar/navbar.html'"></div>
+	<div ui-view></div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular.min.js"></script>
+	<script src="https://cdn.firebase.com/js/client/2.1.2/firebase.js"></script>
+	<script src="https://cdn.firebase.com/libs/angularfire/0.9.2/angularfire.min.js"></script>
+	<script src="lib/angular-ui-router.min.js"></script>
+
+	<script src="app/app.js"></script>
+    <script src="app/service/service.js"></script>
+    <script src="app/service/Auth.service.js"></script>
+    <script src="app/service/FireFactory.service.js"></script>
+    <script src="app/service/User.service.js"></script>
+
+    <script src="app/layout/navbar/navbar.controller.js"></script>
+
+    <script src="app/account/account.js"></script>
+    <script src="app/account/login/login.controller.js"></script>
+    <script src="app/account/signup/signup.controller.js"></script>
+    <script src="app/account/profile/profile.controller.js"></script>
+</body>
+</html>
