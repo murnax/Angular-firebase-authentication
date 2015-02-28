@@ -1,12 +1,14 @@
 # Angular-firebase-authentication
 
-If you just started using firebase you might have a problem how to you
+If you just started using firebase you might have faced with some of the following questions
 - How to save custom user data.
 - How to prevent unauthorized user to access some endpoint.
 - How to get current logged in user with custom data not only 'Auth Data'.
 - How to prevent some endpoint with user's access level
 
-Sorry for my bad english.
+If so, I think my code can help you.
+
+And sorry for my bad english.
 
 If you have a question that I might be able to help you, few free contact me at
 
