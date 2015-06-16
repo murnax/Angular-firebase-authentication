@@ -8,8 +8,6 @@ If you just started using firebase you might have faced with some of the followi
 
 If so, I think my code can help you.
 
-And sorry for my bad english.
-
 If you have a question that I might be able to help you, few free contact me at
 
 suratin.elec@gmail.com
